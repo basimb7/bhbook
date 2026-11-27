@@ -47,6 +47,7 @@ blocked ──unblock──▶ cancelled
    select id, 'admin', 'Property Owner', 'admin' from auth.users where email = 'owner@example.com';
    ```
 3. **Env:** `cp .env.example .env.local` and fill in values from Project Settings → API.
+   Project URL: `https://puftwcrccviwhsdguhjj.supabase.co` (keys go only in `.env.local`, never in git).
 4. **Run:**
    ```bash
    npm install
